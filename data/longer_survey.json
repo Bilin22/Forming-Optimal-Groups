@@ -1,0 +1,128 @@
+{
+  "questions": [
+    {
+      "question": {
+        "class": "MultipleChoiceQuestion",
+        "args": [
+          7,
+          "Which starter Pokemon would you pick?",
+          [
+            "Squirtle",
+            "Bulbasaur",
+            "Charmander",
+            "Pikachu",
+            "Eevee"
+          ]
+        ]
+      },
+      "criterion": {
+        "class": "LonelyMemberCriterion"
+      },
+      "weight": 5
+    },
+    {
+      "question": {
+        "class": "NumericQuestion",
+        "args": [
+          321,
+          "What is your favourite number?",
+          0,
+          1000
+        ]
+      },
+      "criterion": {
+        "class": "HeterogeneousCriterion"
+      },
+      "weight": 10
+    },
+    {
+      "question": {
+        "class": "YesNoQuestion",
+        "args": [
+          15,
+          "Are you hydrated?"
+        ]
+      },
+      "criterion": {
+        "class": "HomogeneousCriterion"
+      },
+      "weight": 3
+    },
+    {
+      "question": {
+        "class": "CheckboxQuestion",
+        "args": [
+          21,
+          "Which colours do you like?",
+          [
+            "Red",
+            "Orange",
+            "Yellow",
+            "Green",
+            "Blue",
+            "Indigo",
+            "Violet",
+            "White",
+            "Black",
+            "Brown",
+            "Grey"
+          ]
+        ]
+      },
+      "criterion": {
+        "class": "HomogeneousCriterion"
+      },
+      "weight": 10
+    },
+
+    {
+      "question": {
+        "class": "MultipleChoiceQuestion",
+        "args": [
+          221,
+          "If you were stranded on an island, which of these would you bring with you?",
+          [ "Lighter",
+            "Book",
+            "Phone",
+            "Sleeping Bag",
+            "Bandages",
+            "My Best Friend",
+            "My Worst Enemy"
+          ]
+        ]
+      },
+      "criterion": {
+        "class": "HeterogeneousCriterion"
+      },
+      "weight": 10
+    },
+    {
+      "question": {
+        "class": "YesNoQuestion",
+        "args": [
+          1235,
+          "The answer is 'No'."
+        ]
+      },
+      "criterion": {
+        "class": "HeterogeneousCriterion"
+      },
+      "weight": 1
+    },
+    {
+      "question": {
+        "class": "NumericQuestion",
+        "args": [
+          11,
+          "Pick a number between 1 and 100. If you pick the same number as someone else, you lose.",
+          1,
+          100
+        ]
+      },
+      "criterion": {
+        "class": "LonelyMemberCriterion"
+      },
+      "weight": 6
+    }
+  ]
+}
